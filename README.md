@@ -45,5 +45,5 @@
 
 ## Credits
 
-    - [Classy giraffe - easy arch](https://github.com/classy-giraffe/easy-arch)
-    - [Archiso](https://github.com/archlinux/archiso)
+    [Classy giraffe - easy-arch](https://github.com/classy-giraffe/easy-arch)
+    [Archiso](https://github.com/archlinux/archiso)
