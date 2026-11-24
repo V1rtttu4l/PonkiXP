@@ -1,0 +1,12 @@
+NAME="PONKI_XP"
+PRETTY_NAME="PonkiXP"
+ID=ponkixp
+ID_LIKE=arch
+BUILD_ID=rolling
+ANSI_COLOR="0;36"
+HOME_URL="https://github.com/V1rtttu4l/PonkiXP"
+DOCUMENTATION_URL="https://github.com/V1rtttu4l/PonkiXP"
+SUPPORT_URL="https://discord.gg/xr9jyu2D8Y"
+BUG_REPORT_URL="https://discord.gg/xr9jyu2D8Y"
+PRIVACY_POLICY_URL="https://github.com/V1rtttu4l/PonkiXP"
+LOGO=hi-ponki

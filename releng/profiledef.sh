@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="archlinux"
-iso_label="ARCH_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
-iso_publisher="Arch Linux <https://archlinux.org>"
-iso_application="Arch Linux Live/Rescue DVD"
+iso_name="PonkiXP"
+iso_label="PonkiXP_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
+iso_publisher="MARELOVERS <https://discord.gg/xr9jyu2D8Y>"
+iso_application="PonkiXP Live ISO"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
 install_dir="arch"
 bootmodes=('bios.syslinux'
@@ -16,6 +16,7 @@ bootstrap_tarball_compression=('zstd' '-c' '-T0' '--auto-threads=logical' '--lon
 kernel_params_aarch64="clk_ignore_unused pd_ignore_unused arm64.nopauth"
 file_permissions=(
   ["/etc/shadow"]="0:0:400"
+  ["/etc/gshadow"]="0:0:400"
   ["/root"]="0:0:750"
   ["/root/.automated_script.sh"]="0:0:755"
   ["/root/.gnupg"]="0:0:700"
